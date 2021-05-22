@@ -1,4 +1,4 @@
-from pushbullet import PushBullet
+#from pushbullet import PushBullet
 import http.client
 from datetime import date, datetime
 import json
@@ -46,6 +46,6 @@ for i in range(0,count):
                 Pincode : {dataDICT["sessions"][i]['pincode']}
 
 # publish notification
-API_KEY = "YOUR_API_KEY"
-pb = PushBullet(API_KEY)
-push = pb.push_note(ininfo1, info1)
+# API_KEY = "YOUR_API_KEY"
+# pb = PushBullet(API_KEY)
+# push = pb.push_note(ininfo1, info1)
